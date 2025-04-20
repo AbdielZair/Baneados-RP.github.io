@@ -27,6 +27,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --rojo: #a70f0f;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -35,6 +36,23 @@
   --font-family-sans-serif: "Montserrat", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
+
+
+
+
+.img-baneado{
+  width: 75px;
+}
+
+
+
+
+
+
+
+
+
 
 *,
 *::before,
@@ -2371,9 +2389,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #212529;
-  background-color: #B49C73;
-  border-color: #B49C73;
+  color: #a70f0f;
+  background-color: #181A1B ;
+  border-color: #a70f0f;
 }
 
 .btn-primary:hover {
@@ -6366,7 +6384,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #37373F !important;
+  background-color: #181A1B !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9526,7 +9544,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #B49C73 !important;
+  color: #a70f0f !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
